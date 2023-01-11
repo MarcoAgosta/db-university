@@ -6,3 +6,9 @@ SELECT * FROM `courses` WHERE `cfu`> 10;
 
 Terza richiesta:
 SELECT * FROM `students` WHERE 2023 - year(date_of_birth) > 30;
+
+Quarta richiesta:
+SELECT * FROM `courses` WHERE `period`='I semestre' AND `year`=1;
+
+Quinta richiesta:
+SELECT * FROM `exams` WHERE `date`= '2020-06-20' AND hour(`hour`)>=14;
