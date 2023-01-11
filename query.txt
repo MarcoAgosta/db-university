@@ -12,3 +12,12 @@ SELECT * FROM `courses` WHERE `period`='I semestre' AND `year`=1;
 
 Quinta richiesta:
 SELECT * FROM `exams` WHERE `date`= '2020-06-20' AND hour(`hour`)>=14;
+
+Sesta richiesta:
+SELECT * FROM `degrees` WHERE `level` = 'magistrale';
+
+Settima richiesta:
+SELECT * FROM `departments`;
+
+Ottava richiesta:
+SELECT * FROM `teachers` WHERE `phone` IS NULL;
