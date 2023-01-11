@@ -1,3 +1,5 @@
 Prima richiesta:
 SELECT * FROM `students` WHERE year(date_of_birth) = 1990;
 
+Seconda richista:
+SELECT * FROM `courses` WHERE `cfu`> 10;
